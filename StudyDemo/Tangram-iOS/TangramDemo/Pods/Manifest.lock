@@ -1,0 +1,27 @@
+PODS:
+  - LazyScroll (0.0.2)
+  - Reachability (3.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Tangram (1.0.2):
+    - LazyScroll (~> 0.0.2)
+    - SDWebImage (~> 3.7)
+
+DEPENDENCIES:
+  - Reachability (~> 3.2)
+  - Tangram (from `../`)
+
+EXTERNAL SOURCES:
+  Tangram:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LazyScroll: 614022689b8e3b93c7bbe268c1a47b76e4265941
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Tangram: c2ed12000b8034d292fb88dcc9284115fd9db01f
+
+PODFILE CHECKSUM: 016df500ab369d71680537e141ce6d77a9d72e52
+
+COCOAPODS: 1.1.1

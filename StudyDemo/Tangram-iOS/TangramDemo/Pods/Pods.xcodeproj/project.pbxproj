@@ -1,0 +1,1470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CD9D23E6D39A1FF6DCCE863D88B950 /* TangramSafeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FBB5AAA04B0BF8B11BC3E9CB903CE8 /* TangramSafeMethod.m */; };
+		02F058179A0AD5A557C8190BB67BB041 /* TangramDefaultElementFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = F5412A50763B565375B5606FA7351E18 /* TangramDefaultElementFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0346B20EA832A701FEA4A899937B80E6 /* TangramStickyBottomLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A605648889F125FD734ACD676F72C79 /* TangramStickyBottomLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C6897D0A77074DBD3F4A9282577240 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 655371F29010F48013773C71B8186017 /* NSData+ImageContentType.m */; };
+		09A9C902F33E49759A6B17415CD8ACEF /* TangramDragableLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D518B709DA7D98F3F7487EBA3E52B8 /* TangramDragableLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DA68A905FD56DD542D1E5D01CF7F76C /* TangramView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F50583A5B0C16BB39E419EE51A8A25D /* TangramView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E39412A14F45C801275957612C2E9AB /* TMMuiLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A2D14EC7D6684F485A60B88174D3D1 /* TMMuiLazyScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F83432252B4CABFDCECA7B39BD5140A /* TangramBusIndexTopic.h in Headers */ = {isa = PBXBuildFile; fileRef = 442AA53685DF45306AEA5D51BB232BF5 /* TangramBusIndexTopic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FB30A9040E13551735CC061DE42271F /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2DAE6BCB4082F2656D75C8DA1C6CA4 /* SDImageCache.m */; };
+		10F49870A7393F36B8B45BE63F85FC83 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D010ABA4622A263501C13E34F4A2DD2 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1171A9B4A934F46A7B0B29C74571ABD6 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 85EE3299809F654B008E046E2BE91C5A /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13FE1318370D73D6300D6B15F8F65518 /* TangramItemModelFactoryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 47DCF053C35B67C862B575CD398710E9 /* TangramItemModelFactoryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146CBFA116E952DBF49326E429B178A4 /* TangramStickyBottomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D6116B4621CE33EF983EA3610DD43180 /* TangramStickyBottomLayout.m */; };
+		15C5E48F175E4EFF44DCDEDC6FB56E72 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BA7321E871E0C75493BCC7A4E2FBA2 /* SDWebImageCompat.m */; };
+		192277C7963C92129427962CCA59B34C /* TangramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D687074D517ED6E52E2D7D4FF38D0B /* TangramView.m */; };
+		1A41FCF6D6C76F98591B5E01B76F6559 /* Pods-TangramDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2456DEA849C5D42BA17152F022215CDA /* Pods-TangramDemo-dummy.m */; };
+		206348D50034FF03392996FB0478F695 /* TangramFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AC5031234938C360616E63601D0A5E /* TangramFlowLayout.m */; };
+		2180053C3356BB8EE92333F356F07174 /* TangramBusIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD1C2176A015CB595636246B0AD97B6 /* TangramBusIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2467F42F7B9EFA3059124289E5D04869 /* TangramBusIndexClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E657245EA09D8DE18ED96E7199833D /* TangramBusIndexClass.m */; };
+		25253319D8776541FCC8050421AAB8E0 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A79016861F01B4DB88B176E765FC7DEA /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D57C74418BAA1A833AE81D91D2145FE /* TangramBusIndexClass.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B4788FB3EFD5FDBFC26A4EBB863080 /* TangramBusIndexClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FC25D2BCF4F8A7B996CA02EA087B456 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = B05ACB53C439D631994748DBE1A345B1 /* UIImage+GIF.m */; };
+		321337181498A828FCB2827CA1E0B203 /* TangramDefaultLayoutFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFD247AAC94FE5E1AE56D89D028F298 /* TangramDefaultLayoutFactory.m */; };
+		34212B901B3FC6645B1185578C3B9B00 /* TangramDragableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 371DEF7085FBDA8C05B711FE85719F62 /* TangramDragableLayout.m */; };
+		36D156170BD6CF5A87A3BED13429C0F1 /* TangramFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 024DD6F03DF2F8C56A471D29ACC64F5C /* TangramFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C14CFAE4DDC101DD38A339E28EA2E61 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B614C8BC6BCE6AA765134F4BC60FBA4D /* SDWebImageDecoder.m */; };
+		3C37ED47837F29F0A2D4C7F1AC54B1E2 /* TangramElementReuseIdentifierProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 550E7990A32043312A1A4103537DA386 /* TangramElementReuseIdentifierProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E70B5F7AAE5EFE60DB3726D66644760 /* TangramSafeMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = CF619D25B3AFC6B9900B05E4E2958049 /* TangramSafeMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40E8DF38293AAB1DD6B511CAD8E0C273 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4690D7C712FA0F792D0DE27945F92001 /* SDWebImageDownloaderOperation.m */; };
+		41B156EC7402623CB8D2B0ED09DB08FB /* TangramBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2132ECE047DB7423602547BBCA6C94 /* TangramBus.m */; };
+		42EFA2A1ECA49DE74B9C264A8929E40D /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 91ED72D6E9F5CDA6935991E2B258B41B /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45076F17B12108965FD103923A1C10E2 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92804FC1B3E08E4788B17D83026352AC /* SDWebImageManager.m */; };
+		4524BA1F9F7237CBBB0DB947544C9B57 /* TangramContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 490DC6DCF595FB505CDE161A176AA7A3 /* TangramContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		475664141426186740450FE95459B31F /* TangramTribleColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E539D43A8FB9D7C49A0FA44C15CD8E7B /* TangramTribleColumnLayout.m */; };
+		479A48198765596C754EC3019E172F80 /* TangramFixBottomLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C875C5C273097AA6910FB79C3D4E7D /* TangramFixBottomLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4853777E8FEEA138E5C3C44407BA2F58 /* TangramDefaultItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A6382579326FF22694222E2222DF7E /* TangramDefaultItemModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BF783B2F5C1D000D7401487EAF9E589 /* Tangram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD468A04AF1B574834225F5513E59B8C /* Tangram-dummy.m */; };
+		4C65070A41FA7A05DB2E75069F726E62 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D90DD248280AA961BC5EBEF33AA3C6A3 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CC1BD618D7619D1E1D6B48961468F31 /* TangramQuintetColumnLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7022CA6456F0E2CFC64465357AFFEDEA /* TangramQuintetColumnLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E0BE6B72AA43BF111041E92BD9C6003 /* TangramFixTopLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A299204F8034AB9C380587C14B303193 /* TangramFixTopLayout.m */; };
+		4E1CDE5205E90C22CE4917AB4BC54CEB /* TangramWaterFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB33C266640BDB5BDA8D2489151B6EF /* TangramWaterFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F802987BE8C687998EB28EFBB38A380 /* TangramQuintetColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F54FB5EFEDBDC01081AF26B401EACB38 /* TangramQuintetColumnLayout.m */; };
+		56714108825FD38934874F3F8DF47E3B /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D0FAFEF18197049FC26677E9C8CAC /* UIView+WebCacheOperation.m */; };
+		5DB4A867199EBD64E6C45DC7DBFC5C3C /* TangramDefaultItemModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2F0776906D6F44916A7B4E991517B /* TangramDefaultItemModelFactory.m */; };
+		5E6750AEF605D4FD86DC3A81E0F271A3 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D1503D864656CE5F5F9428D7CF7C6055 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		616356AF321A01F5E9174883CF5AB8F5 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD7A2892318112E32B052796C5780C5 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6361C0DFDF0CD05592D750BED2DC299A /* TangramTetradColumnLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E53F29330B2BAB55C3A518138582A4 /* TangramTetradColumnLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E741992EC00993D89A38F51AE87142 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA63BD0CAEF52AEFF7F849EEA70522C /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		660749A01058EE197317BC256F65196F /* UIView+Tangram.m in Sources */ = {isa = PBXBuildFile; fileRef = BC814E02BCFB38FA345E47F035C2AC12 /* UIView+Tangram.m */; };
+		6B693A339DC57CCAA2A2931E811AED4A /* TangramLayoutParseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 68CB8F0AB9201CB7639F59ED7DE8A3A6 /* TangramLayoutParseHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C71F814B8031E86576F4ACA7A187573 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 219A24D01819BED271BA9FBA6DA00EC7 /* Reachability-dummy.m */; };
+		6DDF05404500212AA8368E57896A546B /* TangramDefaultDataSourceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DEC078AD59DB628D52F0BD5F48997F /* TangramDefaultDataSourceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70E7F941378E4419F5AE0138BF7C52E6 /* TangramDefaultItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BC01204AF34614A668067FBE41DCFA /* TangramDefaultItemModel.m */; };
+		710D73F17DBCC567C2AAB31665EA13B9 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 25049E903F3B07E9F203B8D4CB491771 /* SDWebImagePrefetcher.m */; };
+		713A312691AA3B4F4F42A0694044B89D /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 922268E9D08557B6E719AB0C6937E7CB /* UIImageView+WebCache.m */; };
+		72589CC41F36B691BFC2B1510693F8E5 /* TangramDefaultElementFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3282A0811264C6AA010AA97965215B3 /* TangramDefaultElementFactory.m */; };
+		728940DD3ACE1A96ABBC885F7F660B77 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE9609B42195414BEAD01279BFA65AB /* ImageIO.framework */; };
+		786C784AEF4689DB02A2D0A09322BAE1 /* TangramFixLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D03185A6E54F78A7BDD9A28004A7FC /* TangramFixLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD23356C744BA86581A5C903542280E /* TangramDefaultDataSourceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A20F9E8AE67B08FDAFE8A8367E7525 /* TangramDefaultDataSourceHelper.m */; };
+		7DA58458F6528107FDDE0706ABEFE869 /* LazyScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 396F1AC54BD6020917780C26347A12BF /* LazyScroll-dummy.m */; };
+		7E0C34F7DDBC94BBA20C1FD0403EFAC4 /* TangramPageScrollLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4201FAF89F592995D6DB76836B6976B2 /* TangramPageScrollLayout.m */; };
+		7F1F1F0A8615A78B7B2B87AD149924EA /* TangramDefaultLayoutFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = CE121606DB4F8D987626C031578543E4 /* TangramDefaultLayoutFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80718E93A8B7939249F294836EC91DEC /* TangramDefaultItemModelFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEE71AAD786D306D1A98B6045D7DD04 /* TangramDefaultItemModelFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A8B152A7232AC1D2B080F12EDBEBBC /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1E18300FA614BF02E09AC14285B9CD /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82B9ABBF3C65C4B2997F18A9CBF83309 /* TangramTetradColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5484DAA56668924CFFE4E39F3233D923 /* TangramTetradColumnLayout.m */; };
+		83D8EBAD379C953460FDBEF74E05400A /* TangramEventQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E93B10308C083FE5D63E3F83635732 /* TangramEventQueue.m */; };
+		8718364B7D251F7BDAAAE90F54163468 /* TangramLayoutParseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4666BC945807E80F2BEF13EDEFD915C8 /* TangramLayoutParseHelper.m */; };
+		89A7171C1E9904E4D5D7BED75F9D0D83 /* TangramDoubleColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A79275D66ADDF42062D7BAC20FBB6511 /* TangramDoubleColumnLayout.m */; };
+		89BFE45CFBDA5E1AC9FA85860704B8C7 /* TangramBus.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9B7799EC6589A301294ACAC3B82A8D /* TangramBus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1648F3D604A3D8B1DDF6C94A034E64 /* TangramItemModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E9BF1185B91BF24148FEF955D2FA49D9 /* TangramItemModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AC2603A936C4EC0264AB04C832B3E79 /* TangramSingleColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD847F5A43F1A79DBFB70884B2CFC2D /* TangramSingleColumnLayout.m */; };
+		8BA4890162D3F45027D4EE5D2A39136C /* TangramDoubleColumnLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8096690C78DA3C137D864B91F1AD93BC /* TangramDoubleColumnLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7EE69AB94DC816E6C4CE3C76B89C09 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A564ABCD0D6211D76143A248A731474 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ED7BFADDE6ED991857DE44B5A5AB262 /* TangramEventDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D55A8D4E0782B595238125D227C817 /* TangramEventDispatcher.m */; };
+		914602DD5E8246FE38A262E015FF9A1F /* TangramEasyElementProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C01FEB885FF80215B680A8338696D2EF /* TangramEasyElementProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		965B0972A453133B6CAB2387A498B89F /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F27A597AB9D1778B2DA745A08DA0B46 /* UIImage+MultiFormat.m */; };
+		9AB7F78D4A112D6D8F74634059E5DD6B /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3B3C802F22618E2794311D5B9117BF /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D582D8CCDE04AB053FB6529F1460A56 /* TangramBusIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3634CB254F40735B7305BF6F78431D47 /* TangramBusIndex.m */; };
+		9E651F733B78FABA609195238F7A193A /* TangramEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = C656F61DE9F5227670C2287283ADD2CB /* TangramEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E79D0260409B7E9D0EF48C0053D4178 /* TangramLayoutFactoryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BCFB9B5DD5412EFB5FBDE46A956186 /* TangramLayoutFactoryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16C23AF094883E754AAA040A380C47B /* TangramFixLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 52955BE25E23C5E23A4966B9F1A5A5D5 /* TangramFixLayout.m */; };
+		A2E9A2B78E87AB112F9481BFA46CB2EC /* TangramEventQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 131B85AD946B2A5167D87BD8F9FFA831 /* TangramEventQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A31AC09A8EFAAEE7CA5A6C3CC1A10AE9 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 48EA22BCF930FE216FEB85552938F619 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A71B1E7F14B0B895C9518F54C790012A /* TangramFixBottomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD701EB51F35977F35A7650EC0DC388 /* TangramFixBottomLayout.m */; };
+		AD2BECC95C4CA460AFB1C5CF08EDCC3B /* TangramContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C54EA0A4847AA9A1FD64D2EA476E6D /* TangramContext.m */; };
+		AED247BAD0B62157FA9EF0D5F61C6DBD /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4F7809F337021761311CCB6707058D /* SDWebImage-dummy.m */; };
+		B291511BAB500708D02EBEF78756E332 /* TMMuiLazyScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B46EECF007D102549F8060132946CA /* TMMuiLazyScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9B05CCD2089AF2098DE2F0BBB19816D /* TangramStickyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0098040FE09B39C277C2F823E92EEA /* TangramStickyLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE42A715BC1B59805C6D0425105564E0 /* TangramElementFactoryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EEA863A8AA2571D4C2CFFBDA3562F19 /* TangramElementFactoryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18F3F242B59628850C110359D8C9056 /* TangramLayoutProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DF9933503CE11F9889552B570D26D3 /* TangramLayoutProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C21AF81DA161C01AAB218D4E65586600 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0B003DAF64305043DCDEE8AA97AD65 /* SystemConfiguration.framework */; };
+		C4E9002A45C663CB8A4A706A433E0902 /* TangramSingleAndDoubleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 061AC338DD472E5BAF13265BB37FAC0C /* TangramSingleAndDoubleLayout.m */; };
+		C73D7272714C699FC70185DE91A89196 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D92106D633B478715BD7EFD503BBDC7D /* SDWebImageDownloader.m */; };
+		C7C763EC1DCBF4774B3EAD3894650BFE /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5351F11E56AFDA689CA378CFA7A4D791 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0DBF071674BE6955CE87E9D0671F969 /* TangramEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F2A8B77C51FB76F585ED2685927F78 /* TangramEvent.m */; };
+		D1EDA01AAD772B6B795C231CCDBDE542 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E7C102A99C33E759D2332C870E991D /* UIButton+WebCache.m */; };
+		D4306811D775DC1D43F35E2E3DFE487E /* TangramTribleColumnLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D8ECEA1061990B635AE23060315A6E /* TangramTribleColumnLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D937D78F2BBAEB3FAA9ECCEEF67532DA /* TangramFixTopLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FF47DAFDD4870BBC1BEE4CB997223E /* TangramFixTopLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D99E71DF00927AE8461735E82DF5A2AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62406CC519FCFDA8ABC607F4AC77CD4E /* Foundation.framework */; };
+		DA65DD1C8DFCECD223441C8D61A402AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62406CC519FCFDA8ABC607F4AC77CD4E /* Foundation.framework */; };
+		DAC89F1D70158CB0368C86A4393265F4 /* TangramPageScrollLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6519DE3B9B3E9C4EFBBE4D58F9B1F6 /* TangramPageScrollLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC7D27C17DEB93510E701800BB4523AB /* TangramEventDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5195CE1CC1EC4E1BF91347FD564550 /* TangramEventDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCED4AD88FAF750E0BA7373F17B86323 /* TangramWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB41010FF209822ADE1C348E973F1D35 /* TangramWaterFlowLayout.m */; };
+		DF1ED80CD37DA9D59732FF476C61CE9D /* TangramBusIndexTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 738403D9ED1BA1D3F6FB4E66E3BCBB55 /* TangramBusIndexTopic.m */; };
+		E11BC52949D7C66A1FC506011297B163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62406CC519FCFDA8ABC607F4AC77CD4E /* Foundation.framework */; };
+		E3747483B9ED0053222D53CD5FF3B432 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C461AB7BFC047F2BC717C34BB2055F /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6F2BD193EC776A1CCD799FCEA7B0DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62406CC519FCFDA8ABC607F4AC77CD4E /* Foundation.framework */; };
+		E81CEFD3BF542E8BE56F729F6350ECE4 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A336A4599F9F41C91CE8F18F40B4B6 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E868486DBB0C1544E77CD2DABA61D577 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F9607A24C616D6F349DF8EE72533F5 /* UIImageView+HighlightedWebCache.m */; };
+		EA6F3717809BF01F90607382E38424D7 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A552377DBF5D37D33D0E2698E6C472A /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F047F61CC94A1C1E3733004721DBFE34 /* UIView+Tangram.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C5A90F19C7B6B8073CAE3203DCAC6E /* UIView+Tangram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F12E6D0FF83B4855687C85D28BBCDC4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62406CC519FCFDA8ABC607F4AC77CD4E /* Foundation.framework */; };
+		F25C9A2ECF18577DED7519DB09859798 /* TangramElementHeightProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BAF0DE4249863A7FC2CE945518EAFCD /* TangramElementHeightProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5ED0BAC2F75600F204E3665104768C2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D029EB21C934FBD49ED0F49B8620BC51 /* Reachability.m */; };
+		FC3E549D9F2F10AE78563DEA0A6D4312 /* TangramSingleColumnLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 977890ECD71A462D644DB57176083876 /* TangramSingleColumnLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD02A41279532C6E483E519768DAD5D3 /* TangramSingleAndDoubleLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EACD5E8D8AE88F7F4D2EC3C7C8F7625 /* TangramSingleAndDoubleLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFC2095B6405F6ACBB14B9E19BD42FE1 /* TangramStickyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C876D7F7806E15DF94A567365AAE33 /* TangramStickyLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		234D0E93455A0FC9FB6570439E4CE892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5954A7AC2C86CC0827E941E29AE59A8;
+			remoteInfo = LazyScroll;
+		};
+		2A2BDBFCBC317389DCAAB3743275BF96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57564ACB0562AD1C6A06ABC6DEFF078A;
+			remoteInfo = Reachability;
+		};
+		41DEEA551ED7844D421B2C59DE8BD047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24A4AB686239B34A2573D44C999BDBF0;
+			remoteInfo = SDWebImage;
+		};
+		661B62D81A1F204DF9986FC25FDF89CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5954A7AC2C86CC0827E941E29AE59A8;
+			remoteInfo = LazyScroll;
+		};
+		84E891A70D6A57CC67514C1ED6F86FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24A4AB686239B34A2573D44C999BDBF0;
+			remoteInfo = SDWebImage;
+		};
+		CD2891C00E92F592AC031440B9532CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8290D1DC05A83BDECD21C0F4CBA0B90C;
+			remoteInfo = Tangram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D03185A6E54F78A7BDD9A28004A7FC /* TangramFixLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramFixLayout.h; sourceTree = "<group>"; };
+		01231630CA7CCC47B9DAB32E0EFD437B /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		024DD6F03DF2F8C56A471D29ACC64F5C /* TangramFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramFlowLayout.h; sourceTree = "<group>"; };
+		061AC338DD472E5BAF13265BB37FAC0C /* TangramSingleAndDoubleLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramSingleAndDoubleLayout.m; sourceTree = "<group>"; };
+		09E93B10308C083FE5D63E3F83635732 /* TangramEventQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramEventQueue.m; sourceTree = "<group>"; };
+		0AEE71AAD786D306D1A98B6045D7DD04 /* TangramDefaultItemModelFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDefaultItemModelFactory.h; sourceTree = "<group>"; };
+		0E13D84A5678781CDE85067C660FB656 /* Pods-TangramDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TangramDemo-resources.sh"; sourceTree = "<group>"; };
+		131B85AD946B2A5167D87BD8F9FFA831 /* TangramEventQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramEventQueue.h; sourceTree = "<group>"; };
+		169F1193FB66D6A2660653D75989FC1C /* Pods-TangramDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TangramDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B197214658F9D3E38686D128D79E21D /* LazyScroll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyScroll-prefix.pch"; sourceTree = "<group>"; };
+		1DCDB6D2C582039924D7B9586622E470 /* Pods-TangramDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TangramDemo-frameworks.sh"; sourceTree = "<group>"; };
+		219A24D01819BED271BA9FBA6DA00EC7 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		21C461AB7BFC047F2BC717C34BB2055F /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		2456DEA849C5D42BA17152F022215CDA /* Pods-TangramDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TangramDemo-dummy.m"; sourceTree = "<group>"; };
+		25049E903F3B07E9F203B8D4CB491771 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		28C876D7F7806E15DF94A567365AAE33 /* TangramStickyLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramStickyLayout.m; sourceTree = "<group>"; };
+		2A605648889F125FD734ACD676F72C79 /* TangramStickyBottomLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramStickyBottomLayout.h; sourceTree = "<group>"; };
+		2BD847F5A43F1A79DBFB70884B2CFC2D /* TangramSingleColumnLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramSingleColumnLayout.m; sourceTree = "<group>"; };
+		2C0B003DAF64305043DCDEE8AA97AD65 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		2D9B7799EC6589A301294ACAC3B82A8D /* TangramBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramBus.h; sourceTree = "<group>"; };
+		35CDF2E9CBFA13D21218B8C00B60CD91 /* TangramHelperMapping.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = TangramHelperMapping.plist; sourceTree = "<group>"; };
+		3634CB254F40735B7305BF6F78431D47 /* TangramBusIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramBusIndex.m; sourceTree = "<group>"; };
+		36D55A8D4E0782B595238125D227C817 /* TangramEventDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramEventDispatcher.m; sourceTree = "<group>"; };
+		371DEF7085FBDA8C05B711FE85719F62 /* TangramDragableLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDragableLayout.m; sourceTree = "<group>"; };
+		396F1AC54BD6020917780C26347A12BF /* LazyScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LazyScroll-dummy.m"; sourceTree = "<group>"; };
+		3DECC49E2E7C4A65A562FCAD11240EA2 /* Pods-TangramDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TangramDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E253E38D9EDB74C53A786FF99058875 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		3EEA863A8AA2571D4C2CFFBDA3562F19 /* TangramElementFactoryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramElementFactoryProtocol.h; sourceTree = "<group>"; };
+		3FD7A2892318112E32B052796C5780C5 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		40672A8500EBEEEB3FF85D4783F7D132 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4201FAF89F592995D6DB76836B6976B2 /* TangramPageScrollLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramPageScrollLayout.m; sourceTree = "<group>"; };
+		442AA53685DF45306AEA5D51BB232BF5 /* TangramBusIndexTopic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramBusIndexTopic.h; sourceTree = "<group>"; };
+		4666BC945807E80F2BEF13EDEFD915C8 /* TangramLayoutParseHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramLayoutParseHelper.m; sourceTree = "<group>"; };
+		4690D7C712FA0F792D0DE27945F92001 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		47C875C5C273097AA6910FB79C3D4E7D /* TangramFixBottomLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramFixBottomLayout.h; sourceTree = "<group>"; };
+		47DCF053C35B67C862B575CD398710E9 /* TangramItemModelFactoryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramItemModelFactoryProtocol.h; sourceTree = "<group>"; };
+		48EA22BCF930FE216FEB85552938F619 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		490DC6DCF595FB505CDE161A176AA7A3 /* TangramContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramContext.h; sourceTree = "<group>"; };
+		4BD701EB51F35977F35A7650EC0DC388 /* TangramFixBottomLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramFixBottomLayout.m; sourceTree = "<group>"; };
+		4D010ABA4622A263501C13E34F4A2DD2 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		4E31F521BA9F92D6B8A9086677A44A9C /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		4E3B3C802F22618E2794311D5B9117BF /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		50B46EECF007D102549F8060132946CA /* TMMuiLazyScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMuiLazyScrollView.h; path = LazyScrollView/TMMuiLazyScrollView.h; sourceTree = "<group>"; };
+		52955BE25E23C5E23A4966B9F1A5A5D5 /* TangramFixLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramFixLayout.m; sourceTree = "<group>"; };
+		5351F11E56AFDA689CA378CFA7A4D791 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		5394FFDBA74BB007D445596183744246 /* TangramHelperCustomMapping.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = TangramHelperCustomMapping.plist; sourceTree = "<group>"; };
+		53A20F9E8AE67B08FDAFE8A8367E7525 /* TangramDefaultDataSourceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDefaultDataSourceHelper.m; sourceTree = "<group>"; };
+		53D687074D517ED6E52E2D7D4FF38D0B /* TangramView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramView.m; sourceTree = "<group>"; };
+		5484DAA56668924CFFE4E39F3233D923 /* TangramTetradColumnLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramTetradColumnLayout.m; sourceTree = "<group>"; };
+		550E7990A32043312A1A4103537DA386 /* TangramElementReuseIdentifierProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramElementReuseIdentifierProtocol.h; sourceTree = "<group>"; };
+		5AA6B15A3AE2B86F37D935ABC167F275 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		5BAF0DE4249863A7FC2CE945518EAFCD /* TangramElementHeightProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramElementHeightProtocol.h; sourceTree = "<group>"; };
+		5D2132ECE047DB7423602547BBCA6C94 /* TangramBus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramBus.m; sourceTree = "<group>"; };
+		5E0098040FE09B39C277C2F823E92EEA /* TangramStickyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramStickyLayout.h; sourceTree = "<group>"; };
+		62406CC519FCFDA8ABC607F4AC77CD4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62BC01204AF34614A668067FBE41DCFA /* TangramDefaultItemModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDefaultItemModel.m; sourceTree = "<group>"; };
+		655371F29010F48013773C71B8186017 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		68CB8F0AB9201CB7639F59ED7DE8A3A6 /* TangramLayoutParseHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramLayoutParseHelper.h; sourceTree = "<group>"; };
+		69C5A90F19C7B6B8073CAE3203DCAC6E /* UIView+Tangram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Tangram.h"; sourceTree = "<group>"; };
+		6F50583A5B0C16BB39E419EE51A8A25D /* TangramView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramView.h; sourceTree = "<group>"; };
+		7022CA6456F0E2CFC64465357AFFEDEA /* TangramQuintetColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramQuintetColumnLayout.h; sourceTree = "<group>"; };
+		738403D9ED1BA1D3F6FB4E66E3BCBB55 /* TangramBusIndexTopic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramBusIndexTopic.m; sourceTree = "<group>"; };
+		73C54EA0A4847AA9A1FD64D2EA476E6D /* TangramContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramContext.m; sourceTree = "<group>"; };
+		7AD1C2176A015CB595636246B0AD97B6 /* TangramBusIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramBusIndex.h; sourceTree = "<group>"; };
+		7C6B5CC1E21D50C757F5B6207D6E1172 /* libPods-TangramDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TangramDemo.a"; path = "libPods-TangramDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8096690C78DA3C137D864B91F1AD93BC /* TangramDoubleColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDoubleColumnLayout.h; sourceTree = "<group>"; };
+		81FF47DAFDD4870BBC1BEE4CB997223E /* TangramFixTopLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramFixTopLayout.h; sourceTree = "<group>"; };
+		83FC9EB3AEBDC66C53AD4FCAFB8B463B /* libTangram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTangram.a; path = libTangram.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		842D0FAFEF18197049FC26677E9C8CAC /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		8471690C83E25B8983A8630536B17617 /* Tangram.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tangram.xcconfig; sourceTree = "<group>"; };
+		85EE3299809F654B008E046E2BE91C5A /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		89BCFB9B5DD5412EFB5FBDE46A956186 /* TangramLayoutFactoryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramLayoutFactoryProtocol.h; sourceTree = "<group>"; };
+		8EACD5E8D8AE88F7F4D2EC3C7C8F7625 /* TangramSingleAndDoubleLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramSingleAndDoubleLayout.h; sourceTree = "<group>"; };
+		91ED72D6E9F5CDA6935991E2B258B41B /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		922268E9D08557B6E719AB0C6937E7CB /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		92804FC1B3E08E4788B17D83026352AC /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977890ECD71A462D644DB57176083876 /* TangramSingleColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramSingleColumnLayout.h; sourceTree = "<group>"; };
+		97AC5031234938C360616E63601D0A5E /* TangramFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramFlowLayout.m; sourceTree = "<group>"; };
+		98B2F0776906D6F44916A7B4E991517B /* TangramDefaultItemModelFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDefaultItemModelFactory.m; sourceTree = "<group>"; };
+		9A552377DBF5D37D33D0E2698E6C472A /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9A564ABCD0D6211D76143A248A731474 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		9B2DAE6BCB4082F2656D75C8DA1C6CA4 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		9F1E18300FA614BF02E09AC14285B9CD /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		9F27A597AB9D1778B2DA745A08DA0B46 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		A299204F8034AB9C380587C14B303193 /* TangramFixTopLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramFixTopLayout.m; sourceTree = "<group>"; };
+		A3A6382579326FF22694222E2222DF7E /* TangramDefaultItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDefaultItemModel.h; sourceTree = "<group>"; };
+		A79016861F01B4DB88B176E765FC7DEA /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		A79275D66ADDF42062D7BAC20FBB6511 /* TangramDoubleColumnLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDoubleColumnLayout.m; sourceTree = "<group>"; };
+		A9B4788FB3EFD5FDBFC26A4EBB863080 /* TangramBusIndexClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramBusIndexClass.h; sourceTree = "<group>"; };
+		ACE9609B42195414BEAD01279BFA65AB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		B05ACB53C439D631994748DBE1A345B1 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		B3282A0811264C6AA010AA97965215B3 /* TangramDefaultElementFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDefaultElementFactory.m; sourceTree = "<group>"; };
+		B4142793F90C888638E7054A14FC7850 /* TangramKitLayoutTypeMap.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = TangramKitLayoutTypeMap.plist; sourceTree = "<group>"; };
+		B4D8ECEA1061990B635AE23060315A6E /* TangramTribleColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramTribleColumnLayout.h; sourceTree = "<group>"; };
+		B614C8BC6BCE6AA765134F4BC60FBA4D /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		BC814E02BCFB38FA345E47F035C2AC12 /* UIView+Tangram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tangram.m"; sourceTree = "<group>"; };
+		C01FEB885FF80215B680A8338696D2EF /* TangramEasyElementProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramEasyElementProtocol.h; sourceTree = "<group>"; };
+		C2D518B709DA7D98F3F7487EBA3E52B8 /* TangramDragableLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDragableLayout.h; sourceTree = "<group>"; };
+		C3DF9933503CE11F9889552B570D26D3 /* TangramLayoutProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramLayoutProtocol.h; sourceTree = "<group>"; };
+		C3FBB5AAA04B0BF8B11BC3E9CB903CE8 /* TangramSafeMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramSafeMethod.m; sourceTree = "<group>"; };
+		C5A2D14EC7D6684F485A60B88174D3D1 /* TMMuiLazyScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMuiLazyScrollView.m; path = LazyScrollView/TMMuiLazyScrollView.m; sourceTree = "<group>"; };
+		C656F61DE9F5227670C2287283ADD2CB /* TangramEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramEvent.h; sourceTree = "<group>"; };
+		C8E657245EA09D8DE18ED96E7199833D /* TangramBusIndexClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramBusIndexClass.m; sourceTree = "<group>"; };
+		CB4F7809F337021761311CCB6707058D /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		CBA63BD0CAEF52AEFF7F849EEA70522C /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		CD468A04AF1B574834225F5513E59B8C /* Tangram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tangram-dummy.m"; sourceTree = "<group>"; };
+		CE121606DB4F8D987626C031578543E4 /* TangramDefaultLayoutFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDefaultLayoutFactory.h; sourceTree = "<group>"; };
+		CF619D25B3AFC6B9900B05E4E2958049 /* TangramSafeMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramSafeMethod.h; sourceTree = "<group>"; };
+		D029EB21C934FBD49ED0F49B8620BC51 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D1503D864656CE5F5F9428D7CF7C6055 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		D2F9607A24C616D6F349DF8EE72533F5 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		D5E53F29330B2BAB55C3A518138582A4 /* TangramTetradColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramTetradColumnLayout.h; sourceTree = "<group>"; };
+		D6116B4621CE33EF983EA3610DD43180 /* TangramStickyBottomLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramStickyBottomLayout.m; sourceTree = "<group>"; };
+		D8BA7321E871E0C75493BCC7A4E2FBA2 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		D90DD248280AA961BC5EBEF33AA3C6A3 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		D92106D633B478715BD7EFD503BBDC7D /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		D98F8488BD57290F2FFB613CE4B2B333 /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReachability.a; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F2A8B77C51FB76F585ED2685927F78 /* TangramEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramEvent.m; sourceTree = "<group>"; };
+		E1E7C102A99C33E759D2332C870E991D /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		E3A336A4599F9F41C91CE8F18F40B4B6 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		E539D43A8FB9D7C49A0FA44C15CD8E7B /* TangramTribleColumnLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramTribleColumnLayout.m; sourceTree = "<group>"; };
+		E99B9FFA3D2A47FA163F47EACA044E62 /* libLazyScroll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLazyScroll.a; path = libLazyScroll.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BF1185B91BF24148FEF955D2FA49D9 /* TangramItemModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramItemModelProtocol.h; sourceTree = "<group>"; };
+		EB230B8A264673DD48C89621493B4B76 /* LazyScroll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LazyScroll.xcconfig; sourceTree = "<group>"; };
+		EB41010FF209822ADE1C348E973F1D35 /* TangramWaterFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramWaterFlowLayout.m; sourceTree = "<group>"; };
+		EDFD247AAC94FE5E1AE56D89D028F298 /* TangramDefaultLayoutFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDefaultLayoutFactory.m; sourceTree = "<group>"; };
+		F1DEC078AD59DB628D52F0BD5F48997F /* TangramDefaultDataSourceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDefaultDataSourceHelper.h; sourceTree = "<group>"; };
+		F2C394530F3D191BD5EF53736B80F7DA /* Tangram-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tangram-prefix.pch"; sourceTree = "<group>"; };
+		F53990F48286ACDD8F1569FB3909DA06 /* Pods-TangramDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TangramDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F5412A50763B565375B5606FA7351E18 /* TangramDefaultElementFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDefaultElementFactory.h; sourceTree = "<group>"; };
+		F54FB5EFEDBDC01081AF26B401EACB38 /* TangramQuintetColumnLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramQuintetColumnLayout.m; sourceTree = "<group>"; };
+		FB5195CE1CC1EC4E1BF91347FD564550 /* TangramEventDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramEventDispatcher.h; sourceTree = "<group>"; };
+		FCB33C266640BDB5BDA8D2489151B6EF /* TangramWaterFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramWaterFlowLayout.h; sourceTree = "<group>"; };
+		FE1529301F39AA3DB045A0DAD5C94D67 /* Pods-TangramDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TangramDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FE6519DE3B9B3E9C4EFBBE4D58F9B1F6 /* TangramPageScrollLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramPageScrollLayout.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E216F8F8CF308EB832B5046029F9F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12E6D0FF83B4855687C85D28BBCDC4D /* Foundation.framework in Frameworks */,
+				728940DD3ACE1A96ABBC885F7F660B77 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86136E6282080D83975BC34016F48EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11BC52949D7C66A1FC506011297B163 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB7F940BB0D5C550D9C35D11313D493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99E71DF00927AE8461735E82DF5A2AA /* Foundation.framework in Frameworks */,
+				C21AF81DA161C01AAB218D4E65586600 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B45E96CB107013611FDE0A69861A1EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA65DD1C8DFCECD223441C8D61A402AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C786ED85449BACCB1AA87585CEC61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F2BD193EC776A1CCD799FCEA7B0DAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B5AD55734DEB222269EA9C8DA464E8 /* LazyScroll */ = {
+			isa = PBXGroup;
+			children = (
+				50B46EECF007D102549F8060132946CA /* TMMuiLazyScrollView.h */,
+				C5A2D14EC7D6684F485A60B88174D3D1 /* TMMuiLazyScrollView.m */,
+				637D5AFF2FB3EB12C2CD1FC9D69CD853 /* Support Files */,
+			);
+			name = LazyScroll;
+			path = LazyScroll;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA145A63D13260F6F37C0949BDAFA109 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		172016693735E737A16E48A9A68396C0 /* EventBus */ = {
+			isa = PBXGroup;
+			children = (
+				2D9B7799EC6589A301294ACAC3B82A8D /* TangramBus.h */,
+				5D2132ECE047DB7423602547BBCA6C94 /* TangramBus.m */,
+				7AD1C2176A015CB595636246B0AD97B6 /* TangramBusIndex.h */,
+				3634CB254F40735B7305BF6F78431D47 /* TangramBusIndex.m */,
+				A9B4788FB3EFD5FDBFC26A4EBB863080 /* TangramBusIndexClass.h */,
+				C8E657245EA09D8DE18ED96E7199833D /* TangramBusIndexClass.m */,
+				442AA53685DF45306AEA5D51BB232BF5 /* TangramBusIndexTopic.h */,
+				738403D9ED1BA1D3F6FB4E66E3BCBB55 /* TangramBusIndexTopic.m */,
+				490DC6DCF595FB505CDE161A176AA7A3 /* TangramContext.h */,
+				73C54EA0A4847AA9A1FD64D2EA476E6D /* TangramContext.m */,
+				C656F61DE9F5227670C2287283ADD2CB /* TangramEvent.h */,
+				E0F2A8B77C51FB76F585ED2685927F78 /* TangramEvent.m */,
+				FB5195CE1CC1EC4E1BF91347FD564550 /* TangramEventDispatcher.h */,
+				36D55A8D4E0782B595238125D227C817 /* TangramEventDispatcher.m */,
+				131B85AD946B2A5167D87BD8F9FFA831 /* TangramEventQueue.h */,
+				09E93B10308C083FE5D63E3F83635732 /* TangramEventQueue.m */,
+			);
+			name = EventBus;
+			path = EventBus;
+			sourceTree = "<group>";
+		};
+		1E6387009565906DABF704D08D3E48AF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3E5EB6F43F979531CF16FD663EF58377 /* Core */,
+				172016693735E737A16E48A9A68396C0 /* EventBus */,
+				26A7B5D6EBDDEFCA0B48286637E72AC8 /* Factory */,
+				212202ACB232E2427AD00128E5F1065B /* Helper */,
+				FA3F803451AEE222742A4ED5E09FB28B /* Layouts */,
+				E947615694E90D93AD5462E756DF6A73 /* Model */,
+				F756FEE88C3C80E5B78ECCEF5E685FF2 /* Protocols */,
+				21DA407152C4B5B286E5CC3B940F9CA3 /* Util */,
+			);
+			name = Source;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		212202ACB232E2427AD00128E5F1065B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F1DEC078AD59DB628D52F0BD5F48997F /* TangramDefaultDataSourceHelper.h */,
+				53A20F9E8AE67B08FDAFE8A8367E7525 /* TangramDefaultDataSourceHelper.m */,
+				68CB8F0AB9201CB7639F59ED7DE8A3A6 /* TangramLayoutParseHelper.h */,
+				4666BC945807E80F2BEF13EDEFD915C8 /* TangramLayoutParseHelper.m */,
+				69C5A90F19C7B6B8073CAE3203DCAC6E /* UIView+Tangram.h */,
+				BC814E02BCFB38FA345E47F035C2AC12 /* UIView+Tangram.m */,
+			);
+			name = Helper;
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		21DA407152C4B5B286E5CC3B940F9CA3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CF619D25B3AFC6B9900B05E4E2958049 /* TangramSafeMethod.h */,
+				C3FBB5AAA04B0BF8B11BC3E9CB903CE8 /* TangramSafeMethod.m */,
+			);
+			name = Util;
+			path = Util;
+			sourceTree = "<group>";
+		};
+		26A7B5D6EBDDEFCA0B48286637E72AC8 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				F5412A50763B565375B5606FA7351E18 /* TangramDefaultElementFactory.h */,
+				B3282A0811264C6AA010AA97965215B3 /* TangramDefaultElementFactory.m */,
+				0AEE71AAD786D306D1A98B6045D7DD04 /* TangramDefaultItemModelFactory.h */,
+				98B2F0776906D6F44916A7B4E991517B /* TangramDefaultItemModelFactory.m */,
+				CE121606DB4F8D987626C031578543E4 /* TangramDefaultLayoutFactory.h */,
+				EDFD247AAC94FE5E1AE56D89D028F298 /* TangramDefaultLayoutFactory.m */,
+			);
+			name = Factory;
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		395A957BA26B12F14B88843902991310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E99B9FFA3D2A47FA163F47EACA044E62 /* libLazyScroll.a */,
+				7C6B5CC1E21D50C757F5B6207D6E1172 /* libPods-TangramDemo.a */,
+				D98F8488BD57290F2FFB613CE4B2B333 /* libReachability.a */,
+				40672A8500EBEEEB3FF85D4783F7D132 /* libSDWebImage.a */,
+				83FC9EB3AEBDC66C53AD4FCAFB8B463B /* libTangram.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E5EB6F43F979531CF16FD663EF58377 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6F50583A5B0C16BB39E419EE51A8A25D /* TangramView.h */,
+				53D687074D517ED6E52E2D7D4FF38D0B /* TangramView.m */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		46628FA4F875BCA2998B4C0E5967D5C6 /* Tangram */ = {
+			isa = PBXGroup;
+			children = (
+				C96C1DA896449E54FC7B5F7BA65B4B4C /* Resources */,
+				FE97D6738F9629BE134C2E77228722AE /* Support Files */,
+				85AA110097ADAB6BE05BF7DCB2F58384 /* Tangram */,
+			);
+			name = Tangram;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		637D5AFF2FB3EB12C2CD1FC9D69CD853 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB230B8A264673DD48C89621493B4B76 /* LazyScroll.xcconfig */,
+				396F1AC54BD6020917780C26347A12BF /* LazyScroll-dummy.m */,
+				1B197214658F9D3E38686D128D79E21D /* LazyScroll-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LazyScroll";
+			sourceTree = "<group>";
+		};
+		78CD732CE85752727B041F0FAB90AE5F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DFCCBBA873004B6E0E919E201C7D990 /* Pods-TangramDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9455A8C9F27458023E1DD3CDF3342DE1 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				831F6B718DB0A08F42787DC615F6A3D0 /* Pods */,
+				395A957BA26B12F14B88843902991310 /* Products */,
+				78CD732CE85752727B041F0FAB90AE5F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		831F6B718DB0A08F42787DC615F6A3D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07B5AD55734DEB222269EA9C8DA464E8 /* LazyScroll */,
+				8FC5E0F612178D6EABAC93CA05970154 /* Reachability */,
+				85EC940EEF3FB597908D69AFD0ECBAA1 /* SDWebImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85AA110097ADAB6BE05BF7DCB2F58384 /* Tangram */ = {
+			isa = PBXGroup;
+			children = (
+				1E6387009565906DABF704D08D3E48AF /* Source */,
+			);
+			name = Tangram;
+			path = Tangram;
+			sourceTree = "<group>";
+		};
+		85EC940EEF3FB597908D69AFD0ECBAA1 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				EBFD578655F74475F6EB716720A933F1 /* Core */,
+				FA9B4868FEDC3998EF493553FF6A0405 /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		8DFCCBBA873004B6E0E919E201C7D990 /* Pods-TangramDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3DECC49E2E7C4A65A562FCAD11240EA2 /* Pods-TangramDemo-acknowledgements.markdown */,
+				169F1193FB66D6A2660653D75989FC1C /* Pods-TangramDemo-acknowledgements.plist */,
+				2456DEA849C5D42BA17152F022215CDA /* Pods-TangramDemo-dummy.m */,
+				1DCDB6D2C582039924D7B9586622E470 /* Pods-TangramDemo-frameworks.sh */,
+				0E13D84A5678781CDE85067C660FB656 /* Pods-TangramDemo-resources.sh */,
+				FE1529301F39AA3DB045A0DAD5C94D67 /* Pods-TangramDemo.debug.xcconfig */,
+				F53990F48286ACDD8F1569FB3909DA06 /* Pods-TangramDemo.release.xcconfig */,
+			);
+			name = "Pods-TangramDemo";
+			path = "Target Support Files/Pods-TangramDemo";
+			sourceTree = "<group>";
+		};
+		8FC5E0F612178D6EABAC93CA05970154 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9A552377DBF5D37D33D0E2698E6C472A /* Reachability.h */,
+				D029EB21C934FBD49ED0F49B8620BC51 /* Reachability.m */,
+				926A05EF92FB73F4CE1F7C3D70B99EEF /* Support Files */,
+			);
+			name = Reachability;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		926A05EF92FB73F4CE1F7C3D70B99EEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E253E38D9EDB74C53A786FF99058875 /* Reachability.xcconfig */,
+				219A24D01819BED271BA9FBA6DA00EC7 /* Reachability-dummy.m */,
+				5AA6B15A3AE2B86F37D935ABC167F275 /* Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		9455A8C9F27458023E1DD3CDF3342DE1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46628FA4F875BCA2998B4C0E5967D5C6 /* Tangram */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BF1DEB2312F8A8EFA738A85F4FAC6CC4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5394FFDBA74BB007D445596183744246 /* TangramHelperCustomMapping.plist */,
+				35CDF2E9CBFA13D21218B8C00B60CD91 /* TangramHelperMapping.plist */,
+				B4142793F90C888638E7054A14FC7850 /* TangramKitLayoutTypeMap.plist */,
+			);
+			name = Resource;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C96C1DA896449E54FC7B5F7BA65B4B4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F28DD8E3BD6DFA8230A033A416BEB94E /* Tangram */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E947615694E90D93AD5462E756DF6A73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3A6382579326FF22694222E2222DF7E /* TangramDefaultItemModel.h */,
+				62BC01204AF34614A668067FBE41DCFA /* TangramDefaultItemModel.m */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA145A63D13260F6F37C0949BDAFA109 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				62406CC519FCFDA8ABC607F4AC77CD4E /* Foundation.framework */,
+				ACE9609B42195414BEAD01279BFA65AB /* ImageIO.framework */,
+				2C0B003DAF64305043DCDEE8AA97AD65 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBFD578655F74475F6EB716720A933F1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4D010ABA4622A263501C13E34F4A2DD2 /* NSData+ImageContentType.h */,
+				655371F29010F48013773C71B8186017 /* NSData+ImageContentType.m */,
+				A79016861F01B4DB88B176E765FC7DEA /* SDImageCache.h */,
+				9B2DAE6BCB4082F2656D75C8DA1C6CA4 /* SDImageCache.m */,
+				5351F11E56AFDA689CA378CFA7A4D791 /* SDWebImageCompat.h */,
+				D8BA7321E871E0C75493BCC7A4E2FBA2 /* SDWebImageCompat.m */,
+				9A564ABCD0D6211D76143A248A731474 /* SDWebImageDecoder.h */,
+				B614C8BC6BCE6AA765134F4BC60FBA4D /* SDWebImageDecoder.m */,
+				CBA63BD0CAEF52AEFF7F849EEA70522C /* SDWebImageDownloader.h */,
+				D92106D633B478715BD7EFD503BBDC7D /* SDWebImageDownloader.m */,
+				E3A336A4599F9F41C91CE8F18F40B4B6 /* SDWebImageDownloaderOperation.h */,
+				4690D7C712FA0F792D0DE27945F92001 /* SDWebImageDownloaderOperation.m */,
+				D90DD248280AA961BC5EBEF33AA3C6A3 /* SDWebImageManager.h */,
+				92804FC1B3E08E4788B17D83026352AC /* SDWebImageManager.m */,
+				9F1E18300FA614BF02E09AC14285B9CD /* SDWebImageOperation.h */,
+				91ED72D6E9F5CDA6935991E2B258B41B /* SDWebImagePrefetcher.h */,
+				25049E903F3B07E9F203B8D4CB491771 /* SDWebImagePrefetcher.m */,
+				4E3B3C802F22618E2794311D5B9117BF /* UIButton+WebCache.h */,
+				E1E7C102A99C33E759D2332C870E991D /* UIButton+WebCache.m */,
+				21C461AB7BFC047F2BC717C34BB2055F /* UIImage+GIF.h */,
+				B05ACB53C439D631994748DBE1A345B1 /* UIImage+GIF.m */,
+				48EA22BCF930FE216FEB85552938F619 /* UIImage+MultiFormat.h */,
+				9F27A597AB9D1778B2DA745A08DA0B46 /* UIImage+MultiFormat.m */,
+				85EE3299809F654B008E046E2BE91C5A /* UIImageView+HighlightedWebCache.h */,
+				D2F9607A24C616D6F349DF8EE72533F5 /* UIImageView+HighlightedWebCache.m */,
+				D1503D864656CE5F5F9428D7CF7C6055 /* UIImageView+WebCache.h */,
+				922268E9D08557B6E719AB0C6937E7CB /* UIImageView+WebCache.m */,
+				3FD7A2892318112E32B052796C5780C5 /* UIView+WebCacheOperation.h */,
+				842D0FAFEF18197049FC26677E9C8CAC /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F28DD8E3BD6DFA8230A033A416BEB94E /* Tangram */ = {
+			isa = PBXGroup;
+			children = (
+				BF1DEB2312F8A8EFA738A85F4FAC6CC4 /* Resource */,
+			);
+			name = Tangram;
+			path = Tangram;
+			sourceTree = "<group>";
+		};
+		F756FEE88C3C80E5B78ECCEF5E685FF2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C01FEB885FF80215B680A8338696D2EF /* TangramEasyElementProtocol.h */,
+				3EEA863A8AA2571D4C2CFFBDA3562F19 /* TangramElementFactoryProtocol.h */,
+				5BAF0DE4249863A7FC2CE945518EAFCD /* TangramElementHeightProtocol.h */,
+				550E7990A32043312A1A4103537DA386 /* TangramElementReuseIdentifierProtocol.h */,
+				47DCF053C35B67C862B575CD398710E9 /* TangramItemModelFactoryProtocol.h */,
+				E9BF1185B91BF24148FEF955D2FA49D9 /* TangramItemModelProtocol.h */,
+				89BCFB9B5DD5412EFB5FBDE46A956186 /* TangramLayoutFactoryProtocol.h */,
+				C3DF9933503CE11F9889552B570D26D3 /* TangramLayoutProtocol.h */,
+			);
+			name = Protocols;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FA3F803451AEE222742A4ED5E09FB28B /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				8096690C78DA3C137D864B91F1AD93BC /* TangramDoubleColumnLayout.h */,
+				A79275D66ADDF42062D7BAC20FBB6511 /* TangramDoubleColumnLayout.m */,
+				C2D518B709DA7D98F3F7487EBA3E52B8 /* TangramDragableLayout.h */,
+				371DEF7085FBDA8C05B711FE85719F62 /* TangramDragableLayout.m */,
+				47C875C5C273097AA6910FB79C3D4E7D /* TangramFixBottomLayout.h */,
+				4BD701EB51F35977F35A7650EC0DC388 /* TangramFixBottomLayout.m */,
+				00D03185A6E54F78A7BDD9A28004A7FC /* TangramFixLayout.h */,
+				52955BE25E23C5E23A4966B9F1A5A5D5 /* TangramFixLayout.m */,
+				81FF47DAFDD4870BBC1BEE4CB997223E /* TangramFixTopLayout.h */,
+				A299204F8034AB9C380587C14B303193 /* TangramFixTopLayout.m */,
+				024DD6F03DF2F8C56A471D29ACC64F5C /* TangramFlowLayout.h */,
+				97AC5031234938C360616E63601D0A5E /* TangramFlowLayout.m */,
+				FE6519DE3B9B3E9C4EFBBE4D58F9B1F6 /* TangramPageScrollLayout.h */,
+				4201FAF89F592995D6DB76836B6976B2 /* TangramPageScrollLayout.m */,
+				7022CA6456F0E2CFC64465357AFFEDEA /* TangramQuintetColumnLayout.h */,
+				F54FB5EFEDBDC01081AF26B401EACB38 /* TangramQuintetColumnLayout.m */,
+				8EACD5E8D8AE88F7F4D2EC3C7C8F7625 /* TangramSingleAndDoubleLayout.h */,
+				061AC338DD472E5BAF13265BB37FAC0C /* TangramSingleAndDoubleLayout.m */,
+				977890ECD71A462D644DB57176083876 /* TangramSingleColumnLayout.h */,
+				2BD847F5A43F1A79DBFB70884B2CFC2D /* TangramSingleColumnLayout.m */,
+				2A605648889F125FD734ACD676F72C79 /* TangramStickyBottomLayout.h */,
+				D6116B4621CE33EF983EA3610DD43180 /* TangramStickyBottomLayout.m */,
+				5E0098040FE09B39C277C2F823E92EEA /* TangramStickyLayout.h */,
+				28C876D7F7806E15DF94A567365AAE33 /* TangramStickyLayout.m */,
+				D5E53F29330B2BAB55C3A518138582A4 /* TangramTetradColumnLayout.h */,
+				5484DAA56668924CFFE4E39F3233D923 /* TangramTetradColumnLayout.m */,
+				B4D8ECEA1061990B635AE23060315A6E /* TangramTribleColumnLayout.h */,
+				E539D43A8FB9D7C49A0FA44C15CD8E7B /* TangramTribleColumnLayout.m */,
+				FCB33C266640BDB5BDA8D2489151B6EF /* TangramWaterFlowLayout.h */,
+				EB41010FF209822ADE1C348E973F1D35 /* TangramWaterFlowLayout.m */,
+			);
+			name = Layouts;
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		FA9B4868FEDC3998EF493553FF6A0405 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01231630CA7CCC47B9DAB32E0EFD437B /* SDWebImage.xcconfig */,
+				CB4F7809F337021761311CCB6707058D /* SDWebImage-dummy.m */,
+				4E31F521BA9F92D6B8A9086677A44A9C /* SDWebImage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		FE97D6738F9629BE134C2E77228722AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8471690C83E25B8983A8630536B17617 /* Tangram.xcconfig */,
+				CD468A04AF1B574834225F5513E59B8C /* Tangram-dummy.m */,
+				F2C394530F3D191BD5EF53736B80F7DA /* Tangram-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "TangramDemo/Pods/Target Support Files/Tangram";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F9D53AA26EBCC736CFAB016318EF0C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F49870A7393F36B8B45BE63F85FC83 /* NSData+ImageContentType.h in Headers */,
+				25253319D8776541FCC8050421AAB8E0 /* SDImageCache.h in Headers */,
+				C7C763EC1DCBF4774B3EAD3894650BFE /* SDWebImageCompat.h in Headers */,
+				8E7EE69AB94DC816E6C4CE3C76B89C09 /* SDWebImageDecoder.h in Headers */,
+				65E741992EC00993D89A38F51AE87142 /* SDWebImageDownloader.h in Headers */,
+				E81CEFD3BF542E8BE56F729F6350ECE4 /* SDWebImageDownloaderOperation.h in Headers */,
+				4C65070A41FA7A05DB2E75069F726E62 /* SDWebImageManager.h in Headers */,
+				81A8B152A7232AC1D2B080F12EDBEBBC /* SDWebImageOperation.h in Headers */,
+				42EFA2A1ECA49DE74B9C264A8929E40D /* SDWebImagePrefetcher.h in Headers */,
+				9AB7F78D4A112D6D8F74634059E5DD6B /* UIButton+WebCache.h in Headers */,
+				E3747483B9ED0053222D53CD5FF3B432 /* UIImage+GIF.h in Headers */,
+				A31AC09A8EFAAEE7CA5A6C3CC1A10AE9 /* UIImage+MultiFormat.h in Headers */,
+				1171A9B4A934F46A7B0B29C74571ABD6 /* UIImageView+HighlightedWebCache.h in Headers */,
+				5E6750AEF605D4FD86DC3A81E0F271A3 /* UIImageView+WebCache.h in Headers */,
+				616356AF321A01F5E9174883CF5AB8F5 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8253B894199480EB36BAF7BCF1CFDCA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BFE45CFBDA5E1AC9FA85860704B8C7 /* TangramBus.h in Headers */,
+				2180053C3356BB8EE92333F356F07174 /* TangramBusIndex.h in Headers */,
+				2D57C74418BAA1A833AE81D91D2145FE /* TangramBusIndexClass.h in Headers */,
+				0F83432252B4CABFDCECA7B39BD5140A /* TangramBusIndexTopic.h in Headers */,
+				4524BA1F9F7237CBBB0DB947544C9B57 /* TangramContext.h in Headers */,
+				6DDF05404500212AA8368E57896A546B /* TangramDefaultDataSourceHelper.h in Headers */,
+				02F058179A0AD5A557C8190BB67BB041 /* TangramDefaultElementFactory.h in Headers */,
+				4853777E8FEEA138E5C3C44407BA2F58 /* TangramDefaultItemModel.h in Headers */,
+				80718E93A8B7939249F294836EC91DEC /* TangramDefaultItemModelFactory.h in Headers */,
+				7F1F1F0A8615A78B7B2B87AD149924EA /* TangramDefaultLayoutFactory.h in Headers */,
+				8BA4890162D3F45027D4EE5D2A39136C /* TangramDoubleColumnLayout.h in Headers */,
+				09A9C902F33E49759A6B17415CD8ACEF /* TangramDragableLayout.h in Headers */,
+				914602DD5E8246FE38A262E015FF9A1F /* TangramEasyElementProtocol.h in Headers */,
+				BE42A715BC1B59805C6D0425105564E0 /* TangramElementFactoryProtocol.h in Headers */,
+				F25C9A2ECF18577DED7519DB09859798 /* TangramElementHeightProtocol.h in Headers */,
+				3C37ED47837F29F0A2D4C7F1AC54B1E2 /* TangramElementReuseIdentifierProtocol.h in Headers */,
+				9E651F733B78FABA609195238F7A193A /* TangramEvent.h in Headers */,
+				DC7D27C17DEB93510E701800BB4523AB /* TangramEventDispatcher.h in Headers */,
+				A2E9A2B78E87AB112F9481BFA46CB2EC /* TangramEventQueue.h in Headers */,
+				479A48198765596C754EC3019E172F80 /* TangramFixBottomLayout.h in Headers */,
+				786C784AEF4689DB02A2D0A09322BAE1 /* TangramFixLayout.h in Headers */,
+				D937D78F2BBAEB3FAA9ECCEEF67532DA /* TangramFixTopLayout.h in Headers */,
+				36D156170BD6CF5A87A3BED13429C0F1 /* TangramFlowLayout.h in Headers */,
+				13FE1318370D73D6300D6B15F8F65518 /* TangramItemModelFactoryProtocol.h in Headers */,
+				8A1648F3D604A3D8B1DDF6C94A034E64 /* TangramItemModelProtocol.h in Headers */,
+				9E79D0260409B7E9D0EF48C0053D4178 /* TangramLayoutFactoryProtocol.h in Headers */,
+				6B693A339DC57CCAA2A2931E811AED4A /* TangramLayoutParseHelper.h in Headers */,
+				C18F3F242B59628850C110359D8C9056 /* TangramLayoutProtocol.h in Headers */,
+				DAC89F1D70158CB0368C86A4393265F4 /* TangramPageScrollLayout.h in Headers */,
+				4CC1BD618D7619D1E1D6B48961468F31 /* TangramQuintetColumnLayout.h in Headers */,
+				3E70B5F7AAE5EFE60DB3726D66644760 /* TangramSafeMethod.h in Headers */,
+				FD02A41279532C6E483E519768DAD5D3 /* TangramSingleAndDoubleLayout.h in Headers */,
+				FC3E549D9F2F10AE78563DEA0A6D4312 /* TangramSingleColumnLayout.h in Headers */,
+				0346B20EA832A701FEA4A899937B80E6 /* TangramStickyBottomLayout.h in Headers */,
+				B9B05CCD2089AF2098DE2F0BBB19816D /* TangramStickyLayout.h in Headers */,
+				6361C0DFDF0CD05592D750BED2DC299A /* TangramTetradColumnLayout.h in Headers */,
+				D4306811D775DC1D43F35E2E3DFE487E /* TangramTribleColumnLayout.h in Headers */,
+				0DA68A905FD56DD542D1E5D01CF7F76C /* TangramView.h in Headers */,
+				4E1CDE5205E90C22CE4917AB4BC54CEB /* TangramWaterFlowLayout.h in Headers */,
+				F047F61CC94A1C1E3733004721DBFE34 /* UIView+Tangram.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A3BE11CA357C2100E1C964DAA7B30A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6F3717809BF01F90607382E38424D7 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43C1D657062D42787F48ED8193E1FE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B291511BAB500708D02EBEF78756E332 /* TMMuiLazyScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24A4AB686239B34A2573D44C999BDBF0 /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C49BC78EA57508F1BA5ECAD60A635D /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				CC7C7EF39385B88B15193C51D80E49CB /* Sources */,
+				0E216F8F8CF308EB832B5046029F9F0D /* Frameworks */,
+				3F9D53AA26EBCC736CFAB016318EF0C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 40672A8500EBEEEB3FF85D4783F7D132 /* libSDWebImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		57564ACB0562AD1C6A06ABC6DEFF078A /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A63FE97E77CCB9917E56A9DEA877F9 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				466846D4B5FF6358ABE2694974D08767 /* Sources */,
+				9DB7F940BB0D5C550D9C35D11313D493 /* Frameworks */,
+				D4A3BE11CA357C2100E1C964DAA7B30A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = D98F8488BD57290F2FFB613CE4B2B333 /* libReachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8290D1DC05A83BDECD21C0F4CBA0B90C /* Tangram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29A51C165E6870ECDE70B580D320345 /* Build configuration list for PBXNativeTarget "Tangram" */;
+			buildPhases = (
+				70E8A8D5B190DAED1E275C8E19217EA5 /* Sources */,
+				B45E96CB107013611FDE0A69861A1EC0 /* Frameworks */,
+				8253B894199480EB36BAF7BCF1CFDCA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB72A71218823C60D01A11FB428DA08 /* PBXTargetDependency */,
+				45599D174AD5A791068677630B89339E /* PBXTargetDependency */,
+			);
+			name = Tangram;
+			productName = Tangram;
+			productReference = 83FC9EB3AEBDC66C53AD4FCAFB8B463B /* libTangram.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D8356B09E90AABBFDCAED14EB58008D1 /* Pods-TangramDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F3ECAED1F699FE6976F95D3BFDBEE8 /* Build configuration list for PBXNativeTarget "Pods-TangramDemo" */;
+			buildPhases = (
+				5AA4F3FC6BEEBA72DC41D37A3A9004D2 /* Sources */,
+				86136E6282080D83975BC34016F48EAA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				915393596A6C6A08601A42B468926774 /* PBXTargetDependency */,
+				4BCF2B168AD3574857E3DADAF2CEE2ED /* PBXTargetDependency */,
+				BB130AED078F5F16701E7B702C4CB4AD /* PBXTargetDependency */,
+				744B818BA238C7237CEA776186814736 /* PBXTargetDependency */,
+			);
+			name = "Pods-TangramDemo";
+			productName = "Pods-TangramDemo";
+			productReference = 7C6B5CC1E21D50C757F5B6207D6E1172 /* libPods-TangramDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5954A7AC2C86CC0827E941E29AE59A8 /* LazyScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B4A07541FBC29D95165361A09E7352 /* Build configuration list for PBXNativeTarget "LazyScroll" */;
+			buildPhases = (
+				A9558FA0F2872FC2088442F34A471D31 /* Sources */,
+				C4C786ED85449BACCB1AA87585CEC61D /* Frameworks */,
+				F43C1D657062D42787F48ED8193E1FE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyScroll;
+			productName = LazyScroll;
+			productReference = E99B9FFA3D2A47FA163F47EACA044E62 /* libLazyScroll.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 395A957BA26B12F14B88843902991310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5954A7AC2C86CC0827E941E29AE59A8 /* LazyScroll */,
+				D8356B09E90AABBFDCAED14EB58008D1 /* Pods-TangramDemo */,
+				57564ACB0562AD1C6A06ABC6DEFF078A /* Reachability */,
+				24A4AB686239B34A2573D44C999BDBF0 /* SDWebImage */,
+				8290D1DC05A83BDECD21C0F4CBA0B90C /* Tangram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466846D4B5FF6358ABE2694974D08767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C71F814B8031E86576F4ACA7A187573 /* Reachability-dummy.m in Sources */,
+				F5ED0BAC2F75600F204E3665104768C2 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA4F3FC6BEEBA72DC41D37A3A9004D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A41FCF6D6C76F98591B5E01B76F6559 /* Pods-TangramDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E8A8D5B190DAED1E275C8E19217EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF783B2F5C1D000D7401487EAF9E589 /* Tangram-dummy.m in Sources */,
+				41B156EC7402623CB8D2B0ED09DB08FB /* TangramBus.m in Sources */,
+				9D582D8CCDE04AB053FB6529F1460A56 /* TangramBusIndex.m in Sources */,
+				2467F42F7B9EFA3059124289E5D04869 /* TangramBusIndexClass.m in Sources */,
+				DF1ED80CD37DA9D59732FF476C61CE9D /* TangramBusIndexTopic.m in Sources */,
+				AD2BECC95C4CA460AFB1C5CF08EDCC3B /* TangramContext.m in Sources */,
+				7CD23356C744BA86581A5C903542280E /* TangramDefaultDataSourceHelper.m in Sources */,
+				72589CC41F36B691BFC2B1510693F8E5 /* TangramDefaultElementFactory.m in Sources */,
+				70E7F941378E4419F5AE0138BF7C52E6 /* TangramDefaultItemModel.m in Sources */,
+				5DB4A867199EBD64E6C45DC7DBFC5C3C /* TangramDefaultItemModelFactory.m in Sources */,
+				321337181498A828FCB2827CA1E0B203 /* TangramDefaultLayoutFactory.m in Sources */,
+				89A7171C1E9904E4D5D7BED75F9D0D83 /* TangramDoubleColumnLayout.m in Sources */,
+				34212B901B3FC6645B1185578C3B9B00 /* TangramDragableLayout.m in Sources */,
+				D0DBF071674BE6955CE87E9D0671F969 /* TangramEvent.m in Sources */,
+				8ED7BFADDE6ED991857DE44B5A5AB262 /* TangramEventDispatcher.m in Sources */,
+				83D8EBAD379C953460FDBEF74E05400A /* TangramEventQueue.m in Sources */,
+				A71B1E7F14B0B895C9518F54C790012A /* TangramFixBottomLayout.m in Sources */,
+				A16C23AF094883E754AAA040A380C47B /* TangramFixLayout.m in Sources */,
+				4E0BE6B72AA43BF111041E92BD9C6003 /* TangramFixTopLayout.m in Sources */,
+				206348D50034FF03392996FB0478F695 /* TangramFlowLayout.m in Sources */,
+				8718364B7D251F7BDAAAE90F54163468 /* TangramLayoutParseHelper.m in Sources */,
+				7E0C34F7DDBC94BBA20C1FD0403EFAC4 /* TangramPageScrollLayout.m in Sources */,
+				4F802987BE8C687998EB28EFBB38A380 /* TangramQuintetColumnLayout.m in Sources */,
+				00CD9D23E6D39A1FF6DCCE863D88B950 /* TangramSafeMethod.m in Sources */,
+				C4E9002A45C663CB8A4A706A433E0902 /* TangramSingleAndDoubleLayout.m in Sources */,
+				8AC2603A936C4EC0264AB04C832B3E79 /* TangramSingleColumnLayout.m in Sources */,
+				146CBFA116E952DBF49326E429B178A4 /* TangramStickyBottomLayout.m in Sources */,
+				FFC2095B6405F6ACBB14B9E19BD42FE1 /* TangramStickyLayout.m in Sources */,
+				82B9ABBF3C65C4B2997F18A9CBF83309 /* TangramTetradColumnLayout.m in Sources */,
+				475664141426186740450FE95459B31F /* TangramTribleColumnLayout.m in Sources */,
+				192277C7963C92129427962CCA59B34C /* TangramView.m in Sources */,
+				DCED4AD88FAF750E0BA7373F17B86323 /* TangramWaterFlowLayout.m in Sources */,
+				660749A01058EE197317BC256F65196F /* UIView+Tangram.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9558FA0F2872FC2088442F34A471D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA58458F6528107FDDE0706ABEFE869 /* LazyScroll-dummy.m in Sources */,
+				0E39412A14F45C801275957612C2E9AB /* TMMuiLazyScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7C7EF39385B88B15193C51D80E49CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C6897D0A77074DBD3F4A9282577240 /* NSData+ImageContentType.m in Sources */,
+				0FB30A9040E13551735CC061DE42271F /* SDImageCache.m in Sources */,
+				AED247BAD0B62157FA9EF0D5F61C6DBD /* SDWebImage-dummy.m in Sources */,
+				15C5E48F175E4EFF44DCDEDC6FB56E72 /* SDWebImageCompat.m in Sources */,
+				3C14CFAE4DDC101DD38A339E28EA2E61 /* SDWebImageDecoder.m in Sources */,
+				C73D7272714C699FC70185DE91A89196 /* SDWebImageDownloader.m in Sources */,
+				40E8DF38293AAB1DD6B511CAD8E0C273 /* SDWebImageDownloaderOperation.m in Sources */,
+				45076F17B12108965FD103923A1C10E2 /* SDWebImageManager.m in Sources */,
+				710D73F17DBCC567C2AAB31665EA13B9 /* SDWebImagePrefetcher.m in Sources */,
+				D1EDA01AAD772B6B795C231CCDBDE542 /* UIButton+WebCache.m in Sources */,
+				2FC25D2BCF4F8A7B996CA02EA087B456 /* UIImage+GIF.m in Sources */,
+				965B0972A453133B6CAB2387A498B89F /* UIImage+MultiFormat.m in Sources */,
+				E868486DBB0C1544E77CD2DABA61D577 /* UIImageView+HighlightedWebCache.m in Sources */,
+				713A312691AA3B4F4F42A0694044B89D /* UIImageView+WebCache.m in Sources */,
+				56714108825FD38934874F3F8DF47E3B /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45599D174AD5A791068677630B89339E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 24A4AB686239B34A2573D44C999BDBF0 /* SDWebImage */;
+			targetProxy = 41DEEA551ED7844D421B2C59DE8BD047 /* PBXContainerItemProxy */;
+		};
+		4BCF2B168AD3574857E3DADAF2CEE2ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = 57564ACB0562AD1C6A06ABC6DEFF078A /* Reachability */;
+			targetProxy = 2A2BDBFCBC317389DCAAB3743275BF96 /* PBXContainerItemProxy */;
+		};
+		5BB72A71218823C60D01A11FB428DA08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LazyScroll;
+			target = F5954A7AC2C86CC0827E941E29AE59A8 /* LazyScroll */;
+			targetProxy = 661B62D81A1F204DF9986FC25FDF89CE /* PBXContainerItemProxy */;
+		};
+		744B818BA238C7237CEA776186814736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Tangram;
+			target = 8290D1DC05A83BDECD21C0F4CBA0B90C /* Tangram */;
+			targetProxy = CD2891C00E92F592AC031440B9532CC4 /* PBXContainerItemProxy */;
+		};
+		915393596A6C6A08601A42B468926774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LazyScroll;
+			target = F5954A7AC2C86CC0827E941E29AE59A8 /* LazyScroll */;
+			targetProxy = 234D0E93455A0FC9FB6570439E4CE892 /* PBXContainerItemProxy */;
+		};
+		BB130AED078F5F16701E7B702C4CB4AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 24A4AB686239B34A2573D44C999BDBF0 /* SDWebImage */;
+			targetProxy = 84E891A70D6A57CC67514C1ED6F86FC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AFC079219F3EF23ADFC734F65761726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB230B8A264673DD48C89621493B4B76 /* LazyScroll.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LazyScroll/LazyScroll-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0DBB3F476CB9DC2C2990BF885EE635C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8471690C83E25B8983A8630536B17617 /* Tangram.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Tangram/Tangram-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4FCA65D9D82334D5480FCF1C4F98B20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E253E38D9EDB74C53A786FF99058875 /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		521F128DBDD197F89E3748BA845533A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01231630CA7CCC47B9DAB32E0EFD437B /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5E1CAC353DA85BFE7ED5A5F7276E5859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1529301F39AA3DB045A0DAD5C94D67 /* Pods-TangramDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		772582B60FDAAFBC974612E7C1327DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01231630CA7CCC47B9DAB32E0EFD437B /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C8B2EBECF6C644AAC7BF372D985714F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB230B8A264673DD48C89621493B4B76 /* LazyScroll.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LazyScroll/LazyScroll-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ACB1D5677D6E580384B954CBD7B0693D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8471690C83E25B8983A8630536B17617 /* Tangram.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Tangram/Tangram-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AE9B5EE3D0090575B7FA0B895A0A0329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53990F48286ACDD8F1569FB3909DA06 /* Pods-TangramDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B6EE044FE52D2D742FC54EFAEAC30CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E253E38D9EDB74C53A786FF99058875 /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06F3ECAED1F699FE6976F95D3BFDBEE8 /* Build configuration list for PBXNativeTarget "Pods-TangramDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1CAC353DA85BFE7ED5A5F7276E5859 /* Debug */,
+				AE9B5EE3D0090575B7FA0B895A0A0329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C49BC78EA57508F1BA5ECAD60A635D /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772582B60FDAAFBC974612E7C1327DAB /* Debug */,
+				521F128DBDD197F89E3748BA845533A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B4A07541FBC29D95165361A09E7352 /* Build configuration list for PBXNativeTarget "LazyScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C8B2EBECF6C644AAC7BF372D985714F /* Debug */,
+				0AFC079219F3EF23ADFC734F65761726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29A51C165E6870ECDE70B580D320345 /* Build configuration list for PBXNativeTarget "Tangram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB1D5677D6E580384B954CBD7B0693D /* Debug */,
+				0DBB3F476CB9DC2C2990BF885EE635C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A63FE97E77CCB9917E56A9DEA877F9 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EE044FE52D2D742FC54EFAEAC30CD1 /* Debug */,
+				4FCA65D9D82334D5480FCF1C4F98B20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
